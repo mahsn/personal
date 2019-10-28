@@ -1,20 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-
-  <!--
-      File: /~jason/youtube.html
-      91.461 Assignment: Creating Your First Web Page
-      Copyright 2015 Jason Downing
-      MIT Licensed - see http://opensource.org/licenses/MIT for details.
-      Anyone may freely use this code. Just don't sue me if it breaks.
-      Created: September 3rd, 2015.
-      Last Updated: Feb 6th, 2018.
-
-      This is a simple HTML file designed to autoplay a YouTube video whenever my contact photo is pressed.
-      The video in question is just a funny Rickroll, but set to a different song / video.
-  -->
 
   <!-- Custom Title Bar -->
   <title>Sandroll</title>
@@ -41,19 +29,20 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 </head>
-  <body>
-    <!--
+
+<body>
+  <!--
       This div idea came from Stackoverflow. It's an easy way to make an iframe responsive in Bootstrap.
       https://stackoverflow.com/questions/25560954/how-do-i-center-youtube-video-iframe-in-twitter-bootstrap-3
      -->
-    <div class="embed-responsive embed-responsive-16by9">
-      <!--
+  <div class="embed-responsive embed-responsive-16by9">
+    <!--
         I disabled controls and turned on autoplay.
         I also made a separate CSS file that has "overflow: hidden;" so that the scroll bar doesn't show up.
       -->
-      <iframe class="embed-responsive-item" 
-      src="https://www.youtube.com/embed/SQoA_wjmE9w?autoplay=1&showinfo=0&controls=0"
-      allowfullscreen=""></iframe>
-    </div>
-  </body>
+    <iframe class="embed-responsive-item"
+      src="https://www.youtube.com/embed/SQoA_wjmE9w?autoplay=1&showinfo=0&controls=0" allowfullscreen=""></iframe>
+  </div>
+</body>
+
 </html>
